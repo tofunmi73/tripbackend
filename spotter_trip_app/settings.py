@@ -132,7 +132,7 @@ STATIC_DIRS = [os.path.join(BASE_DIR, 'accounts/static')]
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://tripapp-ydoc.onrender.com/",
+    "https://tripapp-ydoc.onrender.com",
     "http://localhost:3000",
 ]
 
