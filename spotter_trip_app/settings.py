@@ -132,11 +132,11 @@ STATIC_DIRS = [os.path.join(BASE_DIR, 'accounts/static')]
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://spotter-project-ruby.vercel.app",
+    "https://tripapp-ydoc.onrender.com/",
     "http://localhost:3000",
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = False
 
 CORS_ALLOW_CREDENTIALS = True
 
